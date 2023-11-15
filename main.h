@@ -7,5 +7,6 @@
 #include <stddef.h>
 
 int _printf(const char *format, ...);
+int _printf(const int *format, ...);
 
 #endif
